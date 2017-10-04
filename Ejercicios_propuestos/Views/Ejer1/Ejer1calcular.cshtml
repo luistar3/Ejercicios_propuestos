@@ -1,0 +1,26 @@
+﻿
+@model Ejercicios_propuestos.Models.Ejer1
+@using System.Collections;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ejer1calcular</title>
+</head>
+<body>
+    <div> 
+        
+
+      <h2>monto que recibira es @Model.total</h2> 
+    @{
+        Session.Remove("edad");
+     }
+    </div>
+    @Html.ActionLink("Regresar", "Ejer1add", "Ejer1", null, new { Class = "mdl-navigation__link" })
+</body>
+</html>

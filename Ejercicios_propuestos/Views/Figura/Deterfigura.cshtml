@@ -1,0 +1,34 @@
+﻿@model Ejercicios_propuestos.Models.ClsFigura
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Deterfigura</title>
+</head>
+<body>
+    <div> 
+        <h3>figuras posibles</h3>
+        <h4>@Model.figura</h4>
+
+        <br />
+        <br />
+        <h3>Toda las Areas posibles</h3>
+
+        Area Circulo
+        <h4>@Model.areacir</h4>
+        Area cuadrado
+        <h4>@Model.areacua</h4>
+        Area Rectangulo
+        <h4>@Model.arearec</h4>
+        Area Rombo
+        <h4>@Model.arearom</h4>
+        Area Triangulo
+        <h4>@Model.areatri</h4>
+    </div>
+</body>
+</html>

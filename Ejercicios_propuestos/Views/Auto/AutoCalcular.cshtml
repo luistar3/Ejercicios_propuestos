@@ -1,0 +1,23 @@
+﻿@model Ejercicios_propuestos.Models.ClsAuto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AutoCalcular</title>
+</head>
+<body>
+    <div> 
+        <h2>Tipo de auto: </h2> @Model.tipo
+        <h2>Kilometros recorridos : </h2>@Model.km
+        <h2>Dias Alquilados : </h2>@Model.dias
+        <h2>Precio a Pagar : </h2> S/. @Model.total
+
+        
+    </div>
+</body>
+</html>

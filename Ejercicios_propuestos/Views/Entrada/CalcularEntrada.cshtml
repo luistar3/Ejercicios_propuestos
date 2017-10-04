@@ -1,0 +1,35 @@
+﻿@model Ejercicios_propuestos.Models.ClsEntrada
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CalcularEntrada</title>
+</head>
+<body>
+    <div> 
+        <h1>Edad</h1>
+        <br />
+        <h3>@Model.edad</h3>
+        <br />
+        <h1>Dia</h1>
+        <br />
+        <h3>@Model.dia</h3>
+        <br />
+        <h1>Precio entrada</h1>
+        <br />
+        <h3>@Model.precio</h3>
+        <br />
+        <h1> Precio Con Descuento</h1>
+        <br />
+        <h3>@Model.total</h3>
+        <h1> Descuento</h1>
+        <br />
+        <h3>@Model.desc</h3>
+    </div>
+</body>
+</html>
